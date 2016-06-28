@@ -1,0 +1,9 @@
+WNT/Wingless(non-core);WNT/Wingless(non-core);slmb,dlp,dally,gro
+RTK(non-core);RTK(non-core);rasp
+TGF(non-core);TGF(non-core);gro,nmo
+Hedgehog(non-core);Hedgehog(non-core);slmb,dlp,dally,rasp
+WNT/Wingless(core);WNT/Wingless(core);CkIalpha,Pka-C1,sgg,drl,nmo
+Hedgehog(core);Hedgehog(core);smo,CkIalpha,Pka-C1,sgg
+Notch(non-core);Notch(non-core);gro
+RTK(core);RTK(core);sgg,drl
+TGF(core);TGF(core);smo
