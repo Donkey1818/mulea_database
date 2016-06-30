@@ -1,3 +1,9 @@
+# Downloaded from Signalink (http://signalink.org/)
+# Version 2.0
+# Download date: 30-06-2016
+# Filtering: Pathway members, pathway regulators
+
+Pathway;Pathway;Gene set (Gene symbol)
 JAK/STAT(non-core);JAK/STAT(non-core);Su(var)2-10,Socs44A,Socs36E,Stam,Su(var)205
 WNT/Wingless(non-core);WNT/Wingless(non-core);slmb,gro,RanBP3,hyx,Cby,tsh,nej,lgs,pygo,CrebB-17A,dlp,dally,Src42A,hipk
 TGF(core);TGF(core);daw,babo,Smox,wit,dpp,tkv,sax,put,Med,Mad,Actbeta,stck,gbb,smo,scw

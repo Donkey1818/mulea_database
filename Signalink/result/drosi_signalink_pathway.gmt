@@ -1,9 +1,0 @@
-RTK(non-core);rasp
-Notch(non-core);gro
-WNT/Wingless(core);CkIalpha,Pka-C1,sgg,drl,nmo
-WNT/Wingless(non-core);slmb,dlp,dally,gro
-Hedgehog(non-core);slmb,dlp,dally,rasp
-TGF(non-core);gro,nmo
-RTK(core);sgg,drl
-Hedgehog(core);smo,CkIalpha,Pka-C1,sgg
-TGF(core);smo

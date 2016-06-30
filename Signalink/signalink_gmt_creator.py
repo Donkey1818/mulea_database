@@ -1,4 +1,9 @@
 def file_converter(input_file, sep):
+    '''
+    :param input_file: raw file from Signalink
+    :param sep: column separator
+    :return: [[gene, pathways],[],[],[]...[]]
+    '''
     source_target_pathways_data = []
     gene_pathway = []
     with open(input_file, "r") as input_file:
@@ -16,7 +21,13 @@ def file_converter(input_file, sep):
                 gene_pathway.append([list_[3], list_[5]])
     return gene_pathway
 
+
 def gmt_creator(gene_pathway_list, cell_sep, output_file):
+    '''
+    :param gene_pathway_list: modified input file
+    :param cell_sep: cell separator
+    :param output_file: pathway - gene list
+    '''
     parameter_gene = {}
     for list_ in gene_pathway_list:
         list_[1] = list_[1].split(cell_sep)
@@ -29,5 +40,5 @@ def gmt_creator(gene_pathway_list, cell_sep, output_file):
         for parameter in parameter_gene:
             output.write(parameter + ";" + parameter + ";" + ",".join(parameter_gene[parameter]) + "\n")
 
-gene_pathway_tuple = file_converter("human_0_1_signalink.csv",";")
+gene_pathway_tuple = file_converter("human_0_1_signalink.csv", ";")
 gmt_creator(gene_pathway_tuple, ",", "human_pathway.csv")
