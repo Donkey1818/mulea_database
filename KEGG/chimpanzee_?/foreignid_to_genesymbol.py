@@ -33,10 +33,12 @@ for pathway, gene_list in pathway_gene.items():
                 pathway_genesymbol_list[pathway] = []
             pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
         else:
-            if pathway not in pathway_genesymbol_list:
-                pathway_genesymbol_list[pathway] = []
-            pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
-
+            try:
+                if pathway not in pathway_genesymbol_list:
+                    pathway_genesymbol_list[pathway] = []
+                pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
+            except KeyError:
+                print(gene)
 with open("chimpanzee_pathway_genesymbol.csv", "w") as output:
     for pathway, genesymbols in pathway_genesymbol_list.items():
         for gs in genesymbols:

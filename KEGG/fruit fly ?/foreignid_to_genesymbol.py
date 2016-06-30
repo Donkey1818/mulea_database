@@ -4,16 +4,11 @@ with open("D_melanogaster_genename_uniprot.txt", "r") as translate_file:
     for line in translate_file:
         line = line.strip().split("\t")
         if len(line) > 1:
-            if "; " in line[1]:
-                line[1] = line[1].split("; ")
-                for id in line[1]:
-                    if line[0] not in foreign_new_id:
-                        foreign_new_id[line[0]] = []
-                    foreign_new_id[line[0]].append(id)
-            else:
+            line[1] = line[1].split("; ")
+            for id in line[1]:
                 if line[0] not in foreign_new_id:
                     foreign_new_id[line[0]] = []
-                foreign_new_id[line[0]].append(line[1])
+                foreign_new_id[line[0]].append(id)
 
 with open("KEGG_Paths2geneIDs", "r") as input_file:
     input_file.readline()
@@ -33,10 +28,12 @@ for pathway, gene_list in pathway_gene.items():
                 pathway_genesymbol_list[pathway] = []
             pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
         else:
-            if pathway not in pathway_genesymbol_list:
-                pathway_genesymbol_list[pathway] = []
-            pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
-
+            try:
+                if pathway not in pathway_genesymbol_list:
+                    pathway_genesymbol_list[pathway] = []
+                pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
+            except KeyError:
+                print(gene)
 with open("d_melanogaster_pathway_genesymbol.csv", "w") as output:
     for pathway, genesymbols in pathway_genesymbol_list.items():
         for gs in genesymbols:

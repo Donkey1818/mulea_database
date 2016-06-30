@@ -4,16 +4,11 @@ with open("xenopus_kegg_genesymbol.csv", "r") as translate_file:
     for line in translate_file:
         line = line.strip().split("\t")
         if len(line) > 1:
-            if ";" in line[1]:
-                line[1] = line[1].split(";")
-                for id in line[1]:
-                    if line[0] not in foreign_new_id:
-                        foreign_new_id[line[0]] = []
-                    foreign_new_id[line[0]].append(id)
-            else:
+            line[1] = line[1].split(";")
+            for id in line[1]:
                 if line[0] not in foreign_new_id:
                     foreign_new_id[line[0]] = []
-                foreign_new_id[line[0]].append(line[1])
+                foreign_new_id[line[0]].append(id)
 
 with open("KEGG_Paths2geneIDs", "r") as input_file:
     input_file.readline()
@@ -35,23 +30,10 @@ for pathway, gene_list in pathway_gene.items():
         else:
             if pathway not in pathway_genesymbol_list:
                 pathway_genesymbol_list[pathway] = []
-            pathway_genesymbol_list[pathway].append(foreign_new_id[gene])
+            pathway_genesymbol_list[pathway].extend(foreign_new_id[gene])
+print (pathway_genesymbol_list)
+#with open("xenopus_pathway_genesymbol.csv", "w") as output:
+ #   for pathway, genesymbols in pathway_genesymbol_list.items():
+  #      for gs in genesymbols:
+   #         output.write(pathway + ";" + ";".join(gs) + "\n")
 
-with open("xenopus_pathway_genesymbol.csv", "w") as output:
-    for pathway, genesymbols in pathway_genesymbol_list.items():
-        for gs in genesymbols:
-            output.write(pathway + ";" + ";".join(gs) + "\n")
-
-def gmt_creator(input_file, sep, output_file):
-    parameter_gene = {}
-    with open(input_file, "r") as input_file:
-        for line in input_file:
-            line = line.strip().split(sep)
-            if line[0] not in parameter_gene:
-                parameter_gene[line[0]] = []
-            parameter_gene[line[0]].append(line[1])
-    with open(output_file, "w") as output:
-        for parameter in parameter_gene:
-            output.write(parameter + ";" + ",".join(parameter_gene[parameter]) + "\n")
-
-gmt_creator("xenopus_pathway_genesymbol.csv",";", "xenopus_pathway_genesymbol.gmt")
