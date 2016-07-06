@@ -1,0 +1,157 @@
+xla00010 Glycolysis - Gluconeogenesis
+xla00020 Citrate cycle (TCA cycle)
+xla00030 Pentose phosphate pathway
+xla00040 Pentose and glucuronate interconversions
+xla00051 Fructose and mannose metabolism
+xla00052 Galactose metabolism
+xla00053 Ascorbate and aldarate metabolism
+xla00061 Fatty acid biosynthesis
+xla00062 Fatty acid elongation
+xla00071 Fatty acid degradation
+xla00072 Synthesis and degradation of ketone bodies
+xla00100 Steroid biosynthesis
+xla00120 Primary bile acid biosynthesis
+xla00130 Ubiquinone and other terpenoid-quinone biosynthesis
+xla00140 Steroid hormone biosynthesis
+xla00190 Oxidative phosphorylation
+xla00220 Arginine biosynthesis
+xla00230 Purine metabolism
+xla00240 Pyrimidine metabolism
+xla00250 Alanine, aspartate and glutamate metabolism
+xla00260 Glycine, serine and threonine metabolism
+xla00270 Cysteine and methionine metabolism
+xla00280 Valine, leucine and isoleucine degradation
+xla00290 Valine, leucine and isoleucine biosynthesis
+xla00300 Lysine biosynthesis
+xla00310 Lysine degradation
+xla00330 Arginine and proline metabolism
+xla00340 Histidine metabolism
+xla00350 Tyrosine metabolism
+xla00360 Phenylalanine metabolism
+xla00380 Tryptophan metabolism
+xla00400 Phenylalanine, tyrosine and tryptophan biosynthesis
+xla00410 beta-Alanine metabolism
+xla00430 Taurine and hypotaurine metabolism
+xla00450 Selenocompound metabolism
+xla00472 D-Arginine and D-ornithine metabolism
+xla00480 Glutathione metabolism
+xla00500 Starch and sucrose metabolism
+xla00510 N-Glycan biosynthesis
+xla00511 Other glycan degradation
+xla00512 Mucin type O-Glycan biosynthesis
+xla00514 Other types of O-glycan biosynthesis
+xla00520 Amino sugar and nucleotide sugar metabolism
+xla00524 Butirosin and neomycin biosynthesis
+xla00531 Glycosaminoglycan degradation
+xla00532 Glycosaminoglycan biosynthesis - chondroitin sulfate - dermatan sulfate
+xla00533 Glycosaminoglycan biosynthesis - keratan sulfate
+xla00534 Glycosaminoglycan biosynthesis - heparan sulfate - heparin
+xla00561 Glycerolipid metabolism
+xla00562 Inositol phosphate metabolism
+xla00563 Glycosylphosphatidylinositol(GPI)-anchor biosynthesis
+xla00564 Glycerophospholipid metabolism
+xla00565 Ether lipid metabolism
+xla00590 Arachidonic acid metabolism
+xla00591 Linoleic acid metabolism
+xla00592 alpha-Linolenic acid metabolism
+xla00600 Sphingolipid metabolism
+xla00601 Glycosphingolipid biosynthesis - lacto and neolacto series
+xla00603 Glycosphingolipid biosynthesis - globo series
+xla00604 Glycosphingolipid biosynthesis - ganglio series
+xla00620 Pyruvate metabolism
+xla00630 Glyoxylate and dicarboxylate metabolism
+xla00640 Propanoate metabolism
+xla00650 Butanoate metabolism
+xla00670 One carbon pool by folate
+xla00740 Riboflavin metabolism
+xla00750 Vitamin B6 metabolism
+xla00760 Nicotinate and nicotinamide metabolism
+xla00770 Pantothenate and CoA biosynthesis
+xla00785 Lipoic acid metabolism
+xla00790 Folate biosynthesis
+xla00830 Retinol metabolism
+xla00860 Porphyrin and chlorophyll metabolism
+xla00900 Terpenoid backbone biosynthesis
+xla00910 Nitrogen metabolism
+xla00920 Sulfur metabolism
+xla00970 Aminoacyl-tRNA biosynthesis
+xla00980 Metabolism of xenobiotics by cytochrome P450
+xla00982 Drug metabolism - cytochrome P450
+xla00983 Drug metabolism - other enzymes
+xla01040 Biosynthesis of unsaturated fatty acids
+xla01100 Metabolic pathways
+xla01200 Carbon metabolism
+xla01210 2-Oxocarboxylic acid metabolism
+xla01212 Fatty acid metabolism
+xla01230 Biosynthesis of amino acids
+xla02010 ABC transporters
+xla03008 Ribosome biogenesis in eukaryotes
+xla03010 Ribosome
+xla03013 RNA transport
+xla03015 mRNA surveillance pathway
+xla03018 RNA degradation
+xla03020 RNA polymerase
+xla03022 Basal transcription factors
+xla03030 DNA replication
+xla03040 Spliceosome
+xla03050 Proteasome
+xla03060 Protein export
+xla03320 PPAR signaling pathway
+xla03410 Base excision repair
+xla03420 Nucleotide excision repair
+xla03430 Mismatch repair
+xla03440 Homologous recombination
+xla03450 Non-homologous end-joining
+xla03460 Fanconi anemia pathway
+xla04010 MAPK signaling pathway
+xla04012 ErbB signaling pathway
+xla04020 Calcium signaling pathway
+xla04060 Cytokine-cytokine receptor interaction
+xla04068 FoxO signaling pathway
+xla04070 Phosphatidylinositol signaling system
+xla04080 Neuroactive ligand-receptor interaction
+xla04110 Cell cycle
+xla04114 Oocyte meiosis
+xla04115 p53 signaling pathway
+xla04120 Ubiquitin mediated proteolysis
+xla04122 Sulfur relay system
+xla04130 SNARE interactions in vesicular transport
+xla04140 Regulation of autophagy
+xla04141 Protein processing in endoplasmic reticulum
+xla04142 Lysosome
+xla04144 Endocytosis
+xla04145 Phagosome
+xla04146 Peroxisome
+xla04150 mTOR signaling pathway
+xla04260 Cardiac muscle contraction
+xla04261 Adrenergic signaling in cardiomyocytes
+xla04270 Vascular smooth muscle contraction
+xla04310 Wnt signaling pathway
+xla04320 Dorso-ventral axis formation
+xla04330 Notch signaling pathway
+xla04340 Hedgehog signaling pathway
+xla04350 TGF-beta signaling pathway
+xla04370 VEGF signaling pathway
+xla04510 Focal adhesion
+xla04512 ECM-receptor interaction
+xla04514 Cell adhesion molecules (CAMs)
+xla04520 Adherens junction
+xla04530 Tight junction
+xla04540 Gap junction
+xla04620 Toll-like receptor signaling pathway
+xla04621 NOD-like receptor signaling pathway
+xla04622 RIG-I-like receptor signaling pathway
+xla04623 Cytosolic DNA-sensing pathway
+xla04630 Jak-STAT signaling pathway
+xla04672 Intestinal immune network for IgA production
+xla04744 Phototransduction
+xla04810 Regulation of actin cytoskeleton
+xla04910 Insulin signaling pathway
+xla04912 GnRH signaling pathway
+xla04914 Progesterone-mediated oocyte maturation
+xla04916 Melanogenesis
+xla04920 Adipocytokine signaling pathway
+xla04931 Insulin resistance
+xla04933 AGE-RAGE signaling pathway in diabetic complications
+xla05132 Salmonella infection
+xla05168 Herpes simplex infection

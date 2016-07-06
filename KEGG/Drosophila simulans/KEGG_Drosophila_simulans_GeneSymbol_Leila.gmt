@@ -1,0 +1,7 @@
+# Downloaded from KEGG
+# Last updated: June 20, 2016
+# Download date: 30-06-2016
+
+KEGG Pathway ID;KEGG Pathway;Gene set (Gene symbol)
+dsi00190;dsi00190_Oxidative_phosphorylation;ATP6,ATP8,COX1,COX2,COX3,CYTB,ND1,ND2,ND3,ND4,ND4L,ND5,ND6
+dsi01100;dsi01100_Metabolic_pathways;ATP6,ATP8,COX1,COX2,COX3,CYTB,ND1,ND2,ND3,ND4,ND4L,ND5,ND6

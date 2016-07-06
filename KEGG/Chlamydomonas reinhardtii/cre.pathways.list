@@ -1,0 +1,116 @@
+cre00010 Glycolysis - Gluconeogenesis - Chlamydomonas reinhardtii
+cre00020 Citrate cycle (TCA cycle) - Chlamydomonas reinhardtii
+cre00030 Pentose phosphate pathway - Chlamydomonas reinhardtii
+cre00040 Pentose and glucuronate interconversions - Chlamydomonas reinhardtii
+cre00051 Fructose and mannose metabolism - Chlamydomonas reinhardtii
+cre00052 Galactose metabolism - Chlamydomonas reinhardtii
+cre00053 Ascorbate and aldarate metabolism - Chlamydomonas reinhardtii
+cre00061 Fatty acid biosynthesis - Chlamydomonas reinhardtii
+cre00062 Fatty acid elongation - Chlamydomonas reinhardtii
+cre00071 Fatty acid degradation - Chlamydomonas reinhardtii
+cre00072 Synthesis and degradation of ketone bodies - Chlamydomonas reinhardtii
+cre00073 Cutin, suberine and wax biosynthesis - Chlamydomonas reinhardtii
+cre00100 Steroid biosynthesis - Chlamydomonas reinhardtii
+cre00130 Ubiquinone and other terpenoid-quinone biosynthesis - Chlamydomonas reinhardtii
+cre00190 Oxidative phosphorylation - Chlamydomonas reinhardtii
+cre00195 Photosynthesis - Chlamydomonas reinhardtii
+cre00196 Photosynthesis - antenna proteins - Chlamydomonas reinhardtii
+cre00220 Arginine biosynthesis - Chlamydomonas reinhardtii
+cre00230 Purine metabolism - Chlamydomonas reinhardtii
+cre00232 Caffeine metabolism - Chlamydomonas reinhardtii
+cre00240 Pyrimidine metabolism - Chlamydomonas reinhardtii
+cre00250 Alanine, aspartate and glutamate metabolism - Chlamydomonas reinhardtii
+cre00260 Glycine, serine and threonine metabolism - Chlamydomonas reinhardtii
+cre00261 Monobactam biosynthesis - Chlamydomonas reinhardtii
+cre00270 Cysteine and methionine metabolism - Chlamydomonas reinhardtii
+cre00280 Valine, leucine and isoleucine degradation - Chlamydomonas reinhardtii
+cre00290 Valine, leucine and isoleucine biosynthesis - Chlamydomonas reinhardtii
+cre00300 Lysine biosynthesis - Chlamydomonas reinhardtii
+cre00310 Lysine degradation - Chlamydomonas reinhardtii
+cre00330 Arginine and proline metabolism - Chlamydomonas reinhardtii
+cre00340 Histidine metabolism - Chlamydomonas reinhardtii
+cre00350 Tyrosine metabolism - Chlamydomonas reinhardtii
+cre00360 Phenylalanine metabolism - Chlamydomonas reinhardtii
+cre00380 Tryptophan metabolism - Chlamydomonas reinhardtii
+cre00400 Phenylalanine, tyrosine and tryptophan biosynthesis - Chlamydomonas reinhardtii
+cre00410 beta-Alanine metabolism - Chlamydomonas reinhardtii
+cre00430 Taurine and hypotaurine metabolism - Chlamydomonas reinhardtii
+cre00450 Selenocompound metabolism - Chlamydomonas reinhardtii
+cre00460 Cyanoamino acid metabolism - Chlamydomonas reinhardtii
+cre00480 Glutathione metabolism - Chlamydomonas reinhardtii
+cre00500 Starch and sucrose metabolism - Chlamydomonas reinhardtii
+cre00510 N-Glycan biosynthesis - Chlamydomonas reinhardtii
+cre00511 Other glycan degradation - Chlamydomonas reinhardtii
+cre00520 Amino sugar and nucleotide sugar metabolism - Chlamydomonas reinhardtii
+cre00561 Glycerolipid metabolism - Chlamydomonas reinhardtii
+cre00562 Inositol phosphate metabolism - Chlamydomonas reinhardtii
+cre00563 Glycosylphosphatidylinositol(GPI)-anchor biosynthesis - Chlamydomonas reinhardtii
+cre00564 Glycerophospholipid metabolism - Chlamydomonas reinhardtii
+cre00565 Ether lipid metabolism - Chlamydomonas reinhardtii
+cre00590 Arachidonic acid metabolism - Chlamydomonas reinhardtii
+cre00591 Linoleic acid metabolism - Chlamydomonas reinhardtii
+cre00592 alpha-Linolenic acid metabolism - Chlamydomonas reinhardtii
+cre00600 Sphingolipid metabolism - Chlamydomonas reinhardtii
+cre00620 Pyruvate metabolism - Chlamydomonas reinhardtii
+cre00630 Glyoxylate and dicarboxylate metabolism - Chlamydomonas reinhardtii
+cre00640 Propanoate metabolism - Chlamydomonas reinhardtii
+cre00650 Butanoate metabolism - Chlamydomonas reinhardtii
+cre00660 C5-Branched dibasic acid metabolism - Chlamydomonas reinhardtii
+cre00670 One carbon pool by folate - Chlamydomonas reinhardtii
+cre00710 Carbon fixation in photosynthetic organisms - Chlamydomonas reinhardtii
+cre00730 Thiamine metabolism - Chlamydomonas reinhardtii
+cre00740 Riboflavin metabolism - Chlamydomonas reinhardtii
+cre00750 Vitamin B6 metabolism - Chlamydomonas reinhardtii
+cre00760 Nicotinate and nicotinamide metabolism - Chlamydomonas reinhardtii
+cre00770 Pantothenate and CoA biosynthesis - Chlamydomonas reinhardtii
+cre00780 Biotin metabolism - Chlamydomonas reinhardtii
+cre00785 Lipoic acid metabolism - Chlamydomonas reinhardtii
+cre00790 Folate biosynthesis - Chlamydomonas reinhardtii
+cre00860 Porphyrin and chlorophyll metabolism - Chlamydomonas reinhardtii
+cre00900 Terpenoid backbone biosynthesis - Chlamydomonas reinhardtii
+cre00906 Carotenoid biosynthesis - Chlamydomonas reinhardtii
+cre00909 Sesquiterpenoid and triterpenoid biosynthesis - Chlamydomonas reinhardtii
+cre00910 Nitrogen metabolism - Chlamydomonas reinhardtii
+cre00920 Sulfur metabolism - Chlamydomonas reinhardtii
+cre00940 Phenylpropanoid biosynthesis - Chlamydomonas reinhardtii
+cre00950 Isoquinoline alkaloid biosynthesis - Chlamydomonas reinhardtii
+cre00960 Tropane, piperidine and pyridine alkaloid biosynthesis - Chlamydomonas reinhardtii
+cre00970 Aminoacyl-tRNA biosynthesis - Chlamydomonas reinhardtii
+cre01040 Biosynthesis of unsaturated fatty acids - Chlamydomonas reinhardtii
+cre01100 Metabolic pathways - Chlamydomonas reinhardtii
+cre01110 Biosynthesis of secondary metabolites - Chlamydomonas reinhardtii
+cre01200 Carbon metabolism - Chlamydomonas reinhardtii
+cre01210 2-Oxocarboxylic acid metabolism - Chlamydomonas reinhardtii
+cre01212 Fatty acid metabolism - Chlamydomonas reinhardtii
+cre01230 Biosynthesis of amino acids - Chlamydomonas reinhardtii
+cre01502 Vancomycin resistance - Chlamydomonas reinhardtii
+cre02010 ABC transporters - Chlamydomonas reinhardtii
+cre03008 Ribosome biogenesis in eukaryotes - Chlamydomonas reinhardtii
+cre03010 Ribosome - Chlamydomonas reinhardtii
+cre03013 RNA transport - Chlamydomonas reinhardtii
+cre03015 mRNA surveillance pathway - Chlamydomonas reinhardtii
+cre03018 RNA degradation - Chlamydomonas reinhardtii
+cre03020 RNA polymerase - Chlamydomonas reinhardtii
+cre03022 Basal transcription factors - Chlamydomonas reinhardtii
+cre03030 DNA replication - Chlamydomonas reinhardtii
+cre03040 Spliceosome - Chlamydomonas reinhardtii
+cre03050 Proteasome - Chlamydomonas reinhardtii
+cre03060 Protein export - Chlamydomonas reinhardtii
+cre03410 Base excision repair - Chlamydomonas reinhardtii
+cre03420 Nucleotide excision repair - Chlamydomonas reinhardtii
+cre03430 Mismatch repair - Chlamydomonas reinhardtii
+cre03440 Homologous recombination - Chlamydomonas reinhardtii
+cre03450 Non-homologous end-joining - Chlamydomonas reinhardtii
+cre04070 Phosphatidylinositol signaling system - Chlamydomonas reinhardtii
+cre04075 Plant hormone signal transduction - Chlamydomonas reinhardtii
+cre04120 Ubiquitin mediated proteolysis - Chlamydomonas reinhardtii
+cre04122 Sulfur relay system - Chlamydomonas reinhardtii
+cre04130 SNARE interactions in vesicular transport - Chlamydomonas reinhardtii
+cre04140 Regulation of autophagy - Chlamydomonas reinhardtii
+cre04141 Protein processing in endoplasmic reticulum - Chlamydomonas reinhardtii
+cre04144 Endocytosis - Chlamydomonas reinhardtii
+cre04145 Phagosome - Chlamydomonas reinhardtii
+cre04146 Peroxisome - Chlamydomonas reinhardtii
+cre04712 Circadian rhythm - plant - Chlamydomonas reinhardtii
+cre04931 Insulin resistance - Chlamydomonas reinhardtii
+cre04933 AGE-RAGE signaling pathway in diabetic complications - Chlamydomonas reinhardtii
