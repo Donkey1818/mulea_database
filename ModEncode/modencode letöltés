@@ -1,0 +1,4 @@
+Drosophila melanogaster
+    1. összes Flybase azonosító az uniprotból, csak swissprot ID-val rendelkezők
+    2. futtatni a "download_from_modencode.py"-t
+    3. kapott txt elemzés
