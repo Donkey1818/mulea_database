@@ -4,10 +4,10 @@
 # R
 library(KEGGREST)
 # all genes (ncbi-geneid) of all pathways
-AllGenes2Path=keggLink("pathway", "mtu")
+AllGenes2Path=keggLink("pathway", "bth")
 
 # geneIDs of a single pathway:
-names(AllGenes2Path[AllGenes2Path %in% 'path:mtu00010'])
+names(AllGenes2Path[AllGenes2Path %in% 'path:bth00010'])
      
 
 # create a list that contains the genes of each pathways
@@ -29,16 +29,16 @@ fnlist=function(x, fil){
 fnlist(Paths2geneIDs, "KEGG_Paths2geneIDs")
 
 # shell
-# delete mtu: and path:
-perl -pe 's/mtu\:|path\:|Paths2geneIDs \n//g' KEGG_Paths2geneIDs | perl -pe 's/ \t /\t/g' | perl -pe 's/ \n/\n/g' > temp
+# delete bth: and path:
+perl -pe 's/bth\:|path\:|Paths2geneIDs \n//g' KEGG_Paths2geneIDs | perl -pe 's/ \t /\t/g' | perl -pe 's/ \n/\n/g' > temp
 mv temp KEGG_Paths2geneIDs
 
 # names of pathways
-wget http://rest.kegg.jp/list/pathway/mtu
-mv mtu mtu.pathways.list
+wget http://rest.kegg.jp/list/pathway/bth
+mv bth bth.pathways.list
 
-perl -pe 's/path\:| - Mycobacterium tuberculosis H37Rv \(\)//g' mtu.pathways.list | perl -pe 's/\//-/g' | perl -pe 's/ /_/g' | awk '{print $1"_"$2}' > temp
-mv temp mtu.pathways.list
+perl -pe 's/path\:| - Bacteroides thetaiotaomicron \(\)//g' bth.pathways.list | perl -pe 's/\//-/g' | perl -pe 's/ /_/g' | awk '{print $1"_"$2}' > temp
+mv temp bth.pathways.list
 
 
 
@@ -90,7 +90,7 @@ KEGG_Paths2geneSymbols=lapply(KEGG_Paths2geneIDs, ConvFuncE2G)
 
 
 ## give names of pathways
-PWnames=readLines("mtu.pathways.list")
+PWnames=readLines("bth.pathways.list")
 # checking the order
 names(PWnames)=names(KEGG_Paths2geneSymbols)
 
@@ -107,7 +107,7 @@ fnlist(KEGG_Paths2geneIDs2, "KEGG_Paths2geneIDs")
 perl -pe 's/KEGG_Paths2geneSymbols2 \n//g' KEGG_Paths2geneSymbols | perl -pe 's/ \t /\t/g' | perl -pe 's/ \n/\n/g' > temp
 mv temp KEGG_Paths2geneSymbols
 
-# delete mtu: and path:
+# delete bth: and path:
 perl -pe 's/KEGG_Paths2geneIDs2 \n//g' KEGG_Paths2geneIDs | perl -pe 's/ \t /\t/g' | perl -pe 's/ \n/\n/g' > temp
 mv temp KEGG_Paths2geneIDs
 
@@ -137,7 +137,7 @@ mv temp KEGG_Paths2geneIDs
 # creating conversion table
 
 # Uniprot: http://www.uniprot.org/
-# Advance search: Organism: Mycobacterium tuberculosis H37Rv (it extends the search word automaticly)
+# Advance search: Organism: Bacteroides thetaiotaomicron (it extends the search word automaticly)
 # Columns: Search: geneID, delete everything else except Entry Gene names (primary ), save
 # Download: all, Format: Tab separated, uncompressed -> All_uniprotID_2_genesymbol_entrezGeneID_
 
@@ -148,9 +148,9 @@ mv temp All_uniprotID_2_genesymbol_entrezGeneID_
 awk -F"\t" '{print $1 "\t" $2}' All_uniprotID_2_genesymbol_entrezGeneID_ > Uni2geneName
 
 #get list of kegg to uniprot conversion
-wget http://rest.kegg.jp/conv/uniprot/mtu
-perl -pe 's/mtu:|up://g' mtu > Entrez2Uni
-rm mtu
+wget http://rest.kegg.jp/conv/uniprot/bth
+perl -pe 's/bth:|up://g' bth > Entrez2Uni
+rm bth
 ## crate the same format as it is in Uni2 files, with ;
 
 # multiple or NO GeneIDs can be connected to a UniprotID; run this on atlasz
@@ -163,24 +163,24 @@ rm mtu
 
 
 
-#get list of pathways for Mycobacterium tuberculosis H37Rv:
-wget http://rest.kegg.jp/list/pathway/mtu  # -> mtu
-mv mtu mtu.pathways.list
-awk -F"\t" '{print $1}' mtu.pathways.list > pathwayIDs
+#get list of pathways for Bacteroides thetaiotaomicron:
+wget http://rest.kegg.jp/list/pathway/bth  # -> bth
+mv bth bth.pathways.list
+awk -F"\t" '{print $1}' bth.pathways.list > pathwayIDs
 
 #get list of kegg to uniprot conversion
-wget http://rest.kegg.jp/conv/uniprot/mtu
-mv mtu mtu.kegg_uniprot.list
+wget http://rest.kegg.jp/conv/uniprot/bth
+mv bth bth.kegg_uniprot.list
 #get list of kegg to geneID conversion
-wget http://rest.kegg.jp/conv/ncbi-geneid/mtu
-mv mtu mtu.kegg_geneID.list
+wget http://rest.kegg.jp/conv/ncbi-geneid/bth
+mv bth bth.kegg_geneID.list
 
 #get conversion table for geneIDs (CG...) to flybase IDs from http://flybase.org/static_pages/downloads/IDConv.html
 #get list of genes in pathway:
 #http://rest.kegg.jp//link/genes/path:dme00010
 
 #download pathway list, run:
-cat mtu.pathways.list | python get_pathways.py > pathways_gene
+cat bth.pathways.list | python get_pathways.py > pathways_gene
 #this gives a list of all gene IDs in these pathways and a gowinda file
 #gene ids: 2535 
 #create conversion table using  http://flybase.org/static_pages/downloads/IDConv.html
